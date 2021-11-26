@@ -1,0 +1,77 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background: gainsboro;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+body main header h1 {
+    background: dimgrey;
+    color: #e5e4e2;
+    text-align: center;
+    padding: 16px;
+    border: solid 4px black;
+    border-radius: 12px;
+    width: 800px;
+    max-width: 80%;
+}
+
+body main article {
+    width: 800px;
+    max-width: 80%;
+    background-color: dimgrey;
+    border-radius: 12px;
+    border: solid 4px black;
+    padding: 16px;
+}
+
+.grid {
+    display: grid;
+    gap: 8px;
+    margin: 20px 0;
+}
+
+.btn {
+    border: solid 2px black;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 4px;
+}
+
+.btn:hover {
+    border: solid black;
+    
+}
+
+.btn.correct {
+    color: green;
+    background-color: lightgreen;
+    border: solid 2px #49fb35;
+}
+
+.btn.correct:hover {
+    color: green;
+    background-color: lightgreen;
+    border: solid 2px #49fb35;
+    box-shadow: floralwhite;
+}
+
+.btn.wrong {
+    color: darkred;
+    background-color: firebrick;
+    border: solid 4px #ff3131;
+}
+
+.btn.wrong:hover {
+    color: darkred;
+    background-color: firebrick;
+    border: solid 4px #ff3131;
+}
