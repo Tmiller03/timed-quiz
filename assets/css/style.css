@@ -33,6 +33,10 @@ body main article {
     padding: 16px;
 }
 
+#question {
+    font-size: 24px;
+}
+
 .grid {
     display: grid;
     gap: 8px;
@@ -47,8 +51,9 @@ body main article {
 }
 
 .btn:hover {
-    border: solid black;
-    
+    /* border: solid 3px black; */
+    transition: ease 300ms;
+    transform: scale(1.04);
 }
 
 .btn.correct {
