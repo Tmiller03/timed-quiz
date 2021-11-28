@@ -24,6 +24,22 @@ body main header h1 {
     max-width: 80%;
 }
 
+#timercontainer {
+    background: dimgrey;
+    color: #e5e4e2;
+    text-align: center;
+    padding: 12px;
+    border: solid 4px black;
+    border-radius: 12px;
+    width: 800px;
+    max-width: 80%;
+    margin-bottom: 24px;
+}
+
+#timer {
+    font-size: 40px;
+}
+
 body main article {
     width: 800px;
     max-width: 80%;
@@ -105,5 +121,5 @@ body main article {
 }
 
 .hidden {
-    /* display: none; */
+    display: none;
 }
