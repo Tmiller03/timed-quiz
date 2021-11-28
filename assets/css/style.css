@@ -80,3 +80,30 @@ body main article {
     background-color: firebrick;
     border: solid 4px #ff3131;
 }
+
+.start-btn, .next-btn {
+    font-size: 24px;
+    border-radius: 8px;
+    padding: 4px;
+    margin: 2px;
+}
+
+.control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-btn:hover {
+    transition: ease 300ms;
+    transform: scale(1.04);
+}
+
+.next-btn:hover {
+    transition: ease 300ms;
+    transform: scale(1.04);
+}
+
+.hidden {
+    /* display: none; */
+}
